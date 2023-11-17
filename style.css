@@ -1,0 +1,57 @@
+body{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid rgb(134, 134, 134);
+    margin-top: 0%;
+}
+.gombok {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    border: 1 solid white;
+    background-color: grey;
+}
+.nagykep{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.galeria{
+    width: 100%;
+    padding: 0pt;
+    margin: 0pt;
+    border: 1px solid grey;
+}
+.galeriaimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 5pt;
+    padding: 2pt;
+    margin: 2pt;
+}
+img{
+    width: 100%;
+    border: 1px solid grey;
+}
+@media screen and (max-width: 700px) {
+    nav ul {
+      grid-template-columns: 1fr;
+    }
+}
+.elsokep{
+    margin: 0pt;
+    padding: 0pt;
+    border: 1px solid grey;
+}
+h1{
+    margin-left: 3pt;
+}
+h2{
+    margin-left: 3pt;
+}
+
+
+
+  
